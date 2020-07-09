@@ -1,0 +1,139 @@
+@import "reset.css";
+body {
+	box-sizing: border-box;
+	background:  #e8e8e8 url(../img/palki.svg) 50% 130px no-repeat;
+}
+.wrapper {
+	margin: 0 auto;
+	max-width: 841px;
+	padding-top: 168px;
+	padding-bottom: 137px;
+}
+
+.header-span {
+	color: #273d46;
+	font-family: "Arial MT";
+	font-size: 14px;
+	line-height: 40px;
+	text-transform: uppercase;
+	letter-spacing: 2.8px;
+	opacity: 0.6;
+}
+
+h1 {
+	color: #273d46;	
+	font-family: "Times New Roman PSMT";
+	font-size: 36px;
+	line-height: 50px;
+	text-align: center;
+	max-width: 730px;
+	margin-bottom: 75px;
+}
+
+.wrap-header-span {
+	display: flex;
+	justify-content: center;
+}
+
+.wrap-header-h1 {
+	display: flex;
+	justify-content: center;
+}
+
+.image-content {
+	box-shadow: 0 15px 65px rgba(15, 16, 16, 0.15);
+	background-color: white;
+	padding: 10px;
+}
+
+.content-text-bottom-1 {
+	color: #273d46;
+	font-size: 24px;
+	line-height: 40px;
+	font-family: "Times New Roman PSMT";
+	max-width: 736px;
+	opacity: 0.8;
+	margin-bottom: 40px;
+	margin-top: 85px;
+}
+
+.content-text-bottom-2 {
+	color: #273d46;
+	font-size: 24px;
+	line-height: 40px;
+	font-family: "Times New Roman PSMT";
+	opacity: 0.8;
+	max-width: 735px;
+	margin-bottom: 55px;
+}
+
+.wrap-padding-left {
+	padding-left: 40px;
+}
+
+.block-info-list li {
+	font-family: "Arial MT";
+	font-size: 20px; 
+	margin: 0 0 13px 0;
+	background: url('../img/ico/check_icon.png') left no-repeat;
+	padding-left: 35px;
+}
+
+.block-info-list  {
+	margin-bottom: 50px;
+}
+
+.block-info-list li:nth-child(1) {
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+	color: #273d46;
+}
+.block-info-list li:nth-child(2) {
+	color: #80b7b3;
+	font-style: italic;
+}
+.block-info-list li:nth-child(3) {
+	font-weight: 700;
+	color: #273d46;
+}
+.block-info-list li:nth-child(4) {
+	color: #273d46;
+	text-decoration: line-through;
+}
+.block-info-list li:nth-child(4) span {
+		opacity: 0.3;
+}
+
+.content-link {
+	-webkit-box-shadow: 0px 5px 1px rgba(0, 0, 0, 0.5);
+	box-shadow: 0px 5px 1px rgba(0, 0, 0,0.5);
+	height: 44px;
+	padding: 0 30px; 
+	background-color: #80b7b3; 
+	text-decoration: none;
+	display: inline-block;
+	line-height: 44px;
+	text-transform: uppercase;
+	letter-spacing: 2.8px;
+	font-family: "Arial MT";
+	color: #ffffff;
+	border-radius: 24px;
+}
+
+.content-link span {
+	background: url(../img/ico/arrow.svg) right no-repeat;
+	padding-right: 30px;
+}
+
+.content-link:hover {
+		background-color:#511e23;
+		transition: 350ms;
+
+}
+
+.content-link:active {
+		position: relative;
+	top: 3px;
+	-webkit-box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.5);
+	box-shadow: 0px 2px 1px rgba(0, 0, 0,0.5);
+
+}
